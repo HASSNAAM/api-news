@@ -1,5 +1,5 @@
 async function showApi(country, element) {
-  const apiKey = "Add-Your-API-Key";
+  const apiKey = "your_api_key_here";
   const url = `https://newsapi.org/v2/top-headlines?country=${country}&category=business&apiKey=${apiKey}`;
   try {
     document.querySelector(".loading-spinner").classList.add("active");
